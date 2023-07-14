@@ -11,6 +11,7 @@ body {
     font-family: 'open sans',sans-serif;
 }
 
+/* Style Navbar Start */
 nav {
     margin: 10px;
     display: flex;
@@ -64,7 +65,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #A2B5BB; 
 }
+/* Style Navbar End */
 
+/* Style Home Start */
 section {
     margin: auto;
     display: flex;
@@ -96,6 +99,7 @@ h2 {
 p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
+    font-size: 17px;
 }
 
 button{
@@ -143,14 +147,57 @@ span {
     width: 50%;
     margin: 30px 50px 50px 150px;
 }
+/* Style Home End */
 
+/* Style About Start */
+.about {
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 0 0 0;
+    background-color: #9DB2BF;
+}
+
+.judul-about {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black; 
+}
+
+.deskripsi-about {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.komponen-about {
+    max-width: 100%;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.deskripsi-about1 {
+    margin: 20px 60px 20px 50px;
+}
+
+.deskripsi-about2 {
+    margin: 20px 60px 20px 30px;
+}
+
+.p-about {
+    text-align: justify;
+}
+/* Style About End */
+
+
+/* Style Contact Start */
 .contact {
     max-width: 100%;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: 30px auto 0px auto;
+    padding: 0PX 25PX 0PX 25PX;
 }
 
 .komponen-contact {
@@ -264,9 +311,12 @@ button[type="submit"]:hover {
     opacity: 0.8;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+/* Style Contact End */
 
+/* Style Footer Start */
 .footer {
     text-align: center;
     background-color: #CFD2CF;
     padding: 15px 20px 15px 20px;
 }
+/* Style Footer End */
