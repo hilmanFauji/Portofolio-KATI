@@ -71,12 +71,10 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .text-home {
-    margin: 70px 0px 0px 100px;
+    margin: 120px 0px 0px 100px;
     text-align: center; 
 }
 
@@ -145,26 +143,27 @@ span {
 .gambar {
     height: 50%;
     width: 50%;
-    margin: 30px 50px 50px 150px;
+    margin: 80px 50px 50px 150px;
 }
 /* Style Home End */
 
 /* Style About Start */
 .about {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
     padding: 30px 0 0 0;
-    background-color: #9DB2BF;
+    background-color: #435B66;
 }
 
-.judul-about {
+.judul {
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    color: black; 
+    padding-top: 80px;
+    color: #9DB2BF; 
 }
 
-.deskripsi-about {
+.deskripsi {
     font-weight: 700;
     font-size: 30px;
     color: black;
@@ -180,7 +179,7 @@ span {
 }
 
 .deskripsi-about1 {
-    margin: 20px 60px 20px 50px;
+    margin: 20px 60px 0px 50px;
 }
 
 .deskripsi-about2 {
@@ -191,6 +190,86 @@ span {
     text-align: justify;
 }
 /* Style About End */
+
+/* Style Fortofolio Start */
+.portofolio {
+    padding-top: 36px;
+    padding-bottom: 32px;
+    background-color: #EEEEEE;
+}
+
+.judul-portofolio {
+    max-width: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.konten-port {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
+
+.komponen-port {
+    flex: 0 0 100%;
+    padding: 0 16px;
+    margin-bottom: 24px;
+    max-width: 360px; 
+    margin: 0 auto; 
+}
+
+.gambar-port {
+    height: 200px;
+    width: 360px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.isi-port {
+    margin-top: -7px;
+    padding: 16px;
+    padding-top: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.judul-card {
+    margin-bottom: 12px;
+}
+
+.link-card {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.deskripsi-card {
+    color: #526D82;
+    margin-bottom: 12px;
+}
+
+.kunjungi {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    background-color: #9DB2BF;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.kunjungi:hover {
+    opacity: 0.8;
+}
+/* Style Portofolio End */
 
 
 /* Style Contact Start */
@@ -205,20 +284,6 @@ span {
     margin: 0 auto 20px;
     text-align: center;
     margin-bottom: 35px;
-}
-
-.judul-contact {
-    font-weight: 600px;
-    font-size: 20px;
-    color: black; 
-}
-
-.deskripsi-contact {
-    font-weight: 700;
-    font-size: 30px;
-    color: black;
-    margin-bottom: 15px;
-    margin-top: 20px;
 }
 
 .icon-sosmed {
