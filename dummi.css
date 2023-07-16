@@ -208,38 +208,50 @@ span {
     margin-bottom: 16px;
 }
 
-.konten-skill {
-    display: flex;
-    justify-content: center;
-    margin: 50px 50px;
+.konten-skill1 {
+    margin-top: 20px;
+}
+.konten-skill2 {
+    margin-top: 90px;
+}
+.konten-skill3 {
+    margin-top: 160px;
+}
+
+.logo-skill {
+    height: 80px;
+    width: 80px;
 }
 
 .komponen-skill {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 430px;
-    height: 160px;
-    margin: 30px 40px;
+    margin: 30px;
     padding: 15px;
     background-color: #9DB2BF;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.logo-skill {
-    height: 80px;
-    width: 80px;
-    margin: 15px;
-}
-
 .isi-skill {
     margin: 5px 15px;
 }
 
-.judul-skill {
-    margin-bottom: 7px;
+.judul-card {
+    margin-bottom: 12px;
     text-align: left;
+}
+
+.link-card {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .deskripsi-skill {
