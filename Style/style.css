@@ -84,7 +84,7 @@ section {
 
 .judul-home {
     font-family: arial;
-    font-size: 70px;
+    font-size: 60px;
     text-shadow: 4px 4px 4px #CFD2CF;
 }
 
@@ -102,6 +102,7 @@ p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
     font-size: 17px;
+    text-align: center;
 }
 
 button{
@@ -140,7 +141,7 @@ span {
     z-index: -1;
     position: absolute;
     border-radius: 10px;
-    background: #CFD2CF;
+    background: #9DB2BF;
     transition: 0.5s;
 }
 
@@ -164,7 +165,7 @@ span {
     font-size: 20px;
     text-align: center;
     padding-top: 80px;
-    color: #CFD2CF; 
+    color: #5A96E3; 
 }
 
 .deskripsi {
@@ -203,9 +204,10 @@ span {
     padding: 30px 0px 0px;
 }
 
-.judul-skill {
+.judul-skills {
     max-width: 100%;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .konten-skill {
@@ -250,16 +252,19 @@ span {
 /* Style Skill End */
 
 /* Style Fortofolio Start */
-.portofolio {
+#portofolio {
     padding-top: 36px;
     padding-bottom: 32px;
-    background-color: #EEEEEE;
+    background-color: #CFD2CF;
+}
+
+.judul-portofolio {
+    text-align: center;
 }
 
 .judul {
     max-width: 100%;
     margin-bottom: 16px;
-    text-align: center;
 }
 
 .konten-port {
@@ -309,7 +314,7 @@ span {
 }
 
 .deskripsi-card {
-    color: #CFD2CF;
+    color: #9DB2BF;
     margin-bottom: 12px;
 }
 
@@ -318,7 +323,7 @@ span {
     font-weight: 500;
     font-size: 14px;
     color: #fff;
-    background-color: #CFD2CF;
+    background-color: #9DB2BF;
     padding: 8px 16px;
     border-radius: 10px;
     text-decoration: none;
@@ -413,7 +418,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-    box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(111, 143, 199, 0.5);
     border-color: #3B82F6;
 }
 
