@@ -319,6 +319,7 @@ span {
 .deskripsi-card {
     color: #9DB2BF;
     margin-bottom: 12px;
+    text-align: left;
 }
 
 .kunjungi {
